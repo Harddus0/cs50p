@@ -145,7 +145,7 @@ def lookup_composition_table_keyword(df):
     """Print list of discriptions that contains list of keywords input"""
 
     while True:
-        keywords = input("Enter description kewords: ").strip().upper().split(" ")
+        keywords = input("Enter description keywords: ").strip().upper().split(" ")
         
         result = filter(keywords, df)
         
